@@ -3,6 +3,20 @@ IT school workshop project. A simple web application for user management.
 
 ## General purpose
 This MVC based app allows you to create and manage users data involving Tomcat container for Java Servlets and JSPs covered with a nice and friendly SB Admin 2 template.
+
+## Technologies and tools used
+* JDBC
+* MySQL
+* JBCrypt
+* Http Servlets
+* SB Admin2 theme
+* JSP
+* Expression Language
+* JSTL
+* InteliJ IDEA
+
+## User entity content
+Model and data access layers based on [UserDao](https://https://github.com/LukasBulka/UserDao project.
   
 ## Functionalities
 Available endpoints:
@@ -22,14 +36,3 @@ Available endpoints:
 [show_user]: images/userDetails.png "Show user details"
 [edit_user]: images/editUser.png "Edit user"
 [delete_user]: images/deleteUser.png "Delete user"
-
-## Technologies and tools used
-* JDBC
-* MySQL
-* JBCrypt
-* Http Servlets
-* SB Admin2 theme
-* JSP
-* Expression Language
-* JSTL
-* InteliJ IDEA

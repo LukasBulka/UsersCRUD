@@ -24,15 +24,15 @@ Available endpoints:
 
 ## How does it work?
 1. Users list:
-![list_users][list_users]
-3. Add user
-![add_user][add_user]
+  ![list_users][list_users]
+1. Add user
+  ![add_user][add_user]
 1. Show user details:
-![show_user][show_user]
+  ![show_user][show_user]
 1. Edit user
-![edit_user][edit_user]
+  ![edit_user][edit_user]
 1. Delete user
-![delete_user][delete_user]
+  ![delete_user][delete_user]
 
 [list_users]: images/userList.png "Users list"
 [add_user]: images/addUser.png "Add user"

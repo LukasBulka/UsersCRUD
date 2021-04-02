@@ -16,7 +16,7 @@ This MVC based app allows you to create and manage users data involving Tomcat c
 * InteliJ IDEA
 
 ## User entity content
-Model and data access layers based on [UserDao](https://github.com/LukasBulka/UserDao project.
+Model and data access layers based on [UserDao](https://github.com/LukasBulka/UserDao) project.
   
 ## Functionalities
 Available endpoints:

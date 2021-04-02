@@ -27,7 +27,8 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Save</button>
-                <button type="submit" class="btn btn-primary">Back to list</button>
+                <a href="<c:url value="/user/list"/>" class=" btn btn-primary shadow-sm">
+                    <i class="fas fa-download fa-sm text-white-50"></i>Back to list</a>
             </form>
 
         </div>

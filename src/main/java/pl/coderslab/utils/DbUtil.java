@@ -1,4 +1,4 @@
-package pl.coderslab.model;
+package pl.coderslab.utils;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;

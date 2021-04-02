@@ -1,6 +1,7 @@
 package pl.coderslab.model;
 
 import org.mindrot.jbcrypt.BCrypt;
+import pl.coderslab.utils.DbUtil;
 
 import java.sql.*;
 import java.util.ArrayList;

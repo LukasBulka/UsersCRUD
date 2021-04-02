@@ -17,25 +17,29 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table">
-                    <tr>
-                        <th>Id</th>
-                        <th>User name</th>
-                        <th>Email</th>
-                        <th>Action</th>
-                    </tr>
-                    <c:forEach items="${users}" var="user">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
                         <tr>
-                            <td>${user.id}</td>
-                            <td>${user.username}</td>
-                            <td>${user.email}</td>
-                            <td>
-                                <a href="<c:url value="/user/delete?id=${user.id}"/>">Delete</a>
-                                <a href="<c:url value="/user/edit?id=${user.id}"/>">Edit</a>
-                                <a href="<c:url value="/user/show?id=${user.id}"/>">Show</a>
-                            </td>
-                        </tr>
-                    </c:forEach>
+                            <th>Id</th>
+                            <th>User name</th>
+                            <th>Email</th>
+                            <th>Action</th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                        <c:forEach items="${users}" var="user">
+                            <tr>
+                                <td>${user.id}</td>
+                                <td>${user.username}</td>
+                                <td>${user.email}</td>
+                                <td>
+                                    <a href="<c:url value="/user/delete?id=${user.id}"/>">Delete</a>
+                                    <a href="<c:url value="/user/edit?id=${user.id}"/>">Edit</a>
+                                    <a href="<c:url value="/user/show?id=${user.id}"/>">Show</a>
+                                </td>
+                            </tr>
+                        </c:forEach>
+                    </tbody>
                 </table>
             </div>
         </div>

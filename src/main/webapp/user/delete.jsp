@@ -14,19 +14,21 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table">
-                    <tr>
-                        <th>Id</th>
-                        <td>${user.id}</td>
-                    </tr>
-                    <tr>
-                        <th>User name</th>
-                        <td>${user.username}</td>
-                    </tr>
-                    <tr>
-                        <th>Email</th>
-                        <td>${user.email}</td>
-                    </tr>
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <tbody>
+                  <tr>
+                      <th>Id</th>
+                      <td>${user.id}</td>
+                  </tr>
+                  <tr>
+                      <th>User name</th>
+                      <td>${user.username}</td>
+                  </tr>
+                  <tr>
+                      <th>Email</th>
+                      <td>${user.email}</td>
+                  </tr>
+                  </tbody>
                 </table>
 
                 <form method="post">

@@ -23,7 +23,7 @@ Available endpoints:
 [edit_user]: images/editUser.png "Edit user"
 [delete_user]: images/deleteUser.png "Delete user"
 
-## Technologies used
+## Technologies and tools used
 * JDBC
 * MySQL
 * JBCrypt
@@ -32,3 +32,4 @@ Available endpoints:
 * JSP
 * Expression Language
 * JSTL
+* InteliJ IDEA

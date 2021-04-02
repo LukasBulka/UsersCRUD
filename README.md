@@ -7,19 +7,19 @@ This MVC based app allows you to create and manage users data involving Tomcat c
 ## Functionalities
 Available endpoints:
 * .../user/list - *list all created users*
-1. Users list:
+Users list:
   ![list_users][list_users]
 * .../user/add - *create new user*
-1. Add user
+Add user
   ![add_user][add_user]
 * .../user/show?id= - *show details of user with given ID*
-1. Show user details:
+Show user details:
   ![show_user][show_user]
 * .../user/edit?id= - *edit user with given ID*
-1. Edit user
+Edit user
   ![edit_user][edit_user]
 * .../user/delete?id= - *delete user with given ID*
-1. Delete user
+Delete user
   ![delete_user][delete_user]
   
 [list_users]: images/userList.png "Users list"

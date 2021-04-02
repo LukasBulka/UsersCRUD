@@ -20,17 +20,24 @@ Model and data access layers based on [UserDao](https://github.com/LukasBulka/Us
   
 ## Functionalities
 Available endpoints:
-* .../user/list - *list all created users*
-  ![list_users][list_users]
-* .../user/add - *create new user*
-  ![add_user][add_user]
-* .../user/show?id= - *show details of user with given ID*
-  ![show_user][show_user]
-* .../user/edit?id= - *edit user with given ID*
-  ![edit_user][edit_user]
-* .../user/delete?id= - *delete user with given ID*
-  ![delete_user][delete_user]
-  
+* .../user/list       - *lists all created users*
+* .../user/add        - *creates new user*
+* .../user/show?id=   - *shows details of user with given ID*
+* .../user/edit?id=   - *edits user with given ID*
+* .../user/delete?id= - *deletes user with given ID*
+ 
+## Demo
+1. User list:
+![list_users][list_users]  
+1. Add user:
+![add_user][add_user]
+1. Show user:
+![show_user][show_user]
+1. Edit user:
+![edit_user][edit_user]
+1. Delete user: 
+![delete_user][delete_user]
+
 [list_users]: images/userList.png "Users list"
 [add_user]: images/addUser.png "Add user"
 [show_user]: images/userDetails.png "Show user details"

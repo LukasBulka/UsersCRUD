@@ -34,8 +34,8 @@ Available endpoints:
 1. Delete user
   ![delete_user][delete_user]
 
-[list_users]: /images/userList.png "Users list"
-[add_user]: /images/addUser.png "Add user"
-[show_user]: /images/userDetails.png "Show user details"
-[edit_user]: /images/editUser.png "Edit user"
-[delete_user]: /images/deleteUser.png "Delete user"
+[list_users]: images/userList.png "Users list"
+[add_user]: images/addUser.png "Add user"
+[show_user]: images/userDetails.png "Show user details"
+[edit_user]: images/editUser.png "Edit user"
+[delete_user]: images/deleteUser.png "Delete user"
